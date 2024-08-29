@@ -80,7 +80,7 @@ commands.srpcotesia.srpcwell.usage=/srpcwell <get|clear|fix> <dimension id, opti
 commands.srpcotesia.srpcwell.empty=当前没有活动的井口。
 
 command.srpcotesia.srpmobcounts.top=========== 寄生体计数  ==========
-command.srpcotesia.srpmobcounts.info=这里有 %d 种不同的寄生实体。共计发现寄生体总数为 %d 。
+command.srpcotesia.srpmobcounts.info=这里有 %d 种不同的寄生实体。共计发现寄生体总数为 %d。
 command.srpcotesia.srpmobcounts.displaying=显示 %d 最为频繁：
 command.srpcotesia.srpmobcounts.class=%s：%d
 command.srpcotesia.srpmobcounts.name=%s（%s）：%d
@@ -93,8 +93,8 @@ commands.srpcotesia.srpcwell.remove=已成功移除x=%d，z=%d，%s（维度 ID 
 commands.srpcotesia.srpcwell.remove.none=这里没有井口。
 commands.srpcotesia.srpcwell.nofix=所有井口都已生效，或根本没有井口。
 
-commands.srpcotesia.dendritus.active=于x=%d，y=%d，z=%d，%d 格范围内激活 %s 阶树突体
-commands.srpcotesia.dendritus.inactive=于x=%d，y=%d，z=%d，%d 格范围停用 %s 阶树突体
+commands.srpcotesia.dendritus.active=一个已激活的 %s 阶树突体位于x=%d，y=%d，z=%d，其作用范围为 %d 格 
+commands.srpcotesia.dendritus.inactive=一个已惰化的 %s 阶树突体，位于x=%d，y=%d，z=%d，其作用范围为 %d 格 
 commands.srpcotesia.dendritus.noneactive=没有已激活的树突体。
 
 commands.srpcotesia.atimer.disabled=末日计时已关闭
@@ -111,7 +111,7 @@ commands.srpcotesia.adapt.adapted=强制 %d 个实体适应“%s”
 commands.srpcotesia.adapt.cant=发现 %d 个无法适应的实体
 
 commands.srpcotesia.setbloom.positive=值必须为正数！
-commands.srpcotesia.setKillC.between=值必须在0到 %d 之间！
+commands.srpcotesia.setKillC.between=值必须在 0 到 %d 之间！
 
 commands.srpcotesia.toggleparasite.success=已成功将寄生体状态设置为 %s。
 commands.srpcotesia.setbiomass.success=已成功将生物质设置为 %d。
@@ -373,7 +373,7 @@ tooltip.srpcotesia.dendritus4=§f如果手动放置，则可以按%s激活它。
 
 tile.srpcotesia.osmosis.name=§b渗透活化器
 tooltip.srpcotesia.osmosis1=§f根据放入的§9反应物§f对§9酿造囊§f进行改造。用酿造囊或§9反应物§f右键点击放入。
-tooltip.srpcotesia.osmosis2=§f工具提示栏内会显示被活化后§9反应物§f的效果。
+tooltip.srpcotesia.osmosis2=§f提示框内会显示被活化后§9反应物§f的效果。
 
 item.srpcotesia.booster_si.name=§6阶段增幅器
 item.srpcotesia.booster_sii.name=§6受控的阶段增幅器
